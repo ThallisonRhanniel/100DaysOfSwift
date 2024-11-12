@@ -29,6 +29,11 @@ let set = Set(["aardvark", "ästronaut", "Azaleia"])
 let pythons = ["Ëric", "graham" , "Jhon", "Michael"]
 
 
+address.0
+set.first;
+pythons[0]
+
+
 //Dicionários
 let heights = [
     "Taylor Swift": 1.78,
@@ -36,6 +41,8 @@ let heights = [
 ]
 
 heights["Taylor Swift"]
+
+heights["Ed Sheeran"]
 
 //Dicionários podem adicionar um valor padrão
 
@@ -45,7 +52,7 @@ let favoriteIceCream = [
 ]
 
 favoriteIceCream["Paul"]
-
+//Retorna um valor Default caso não encontre o que eu busquei na lista na lista
 favoriteIceCream["Charlotte", default: "Unknown"]
 
 //Colecões vazias

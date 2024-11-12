@@ -4,7 +4,7 @@ var greeting = "Hello, playground"
 greeting = "Alterando valor"
 
 var age = 28
-var population = 8_000_000
+var population = 82_000_000
 
 
 var str1 = """

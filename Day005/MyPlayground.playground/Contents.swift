@@ -24,12 +24,14 @@ func square(number: Int) {
 square(number: 8)
 
 
+
+
 //Function with return
 func SquareWhithReturn(number: Int) -> Int {
     return number * number
 }
 
-let result = SquareWhithReturn(number: 8)
+let result = SquareWhithReturn(number: 10)
 print(result)
 
 //parameter labels
@@ -37,6 +39,8 @@ print(result)
 func sayHello(to name: String) {
     print("Hello, \(name)!")
 }
+
+sayHello(to: "Taylor")
 
 //Omitting parameter labels
 //Remover a obrigatoriedade de escrever o tipo do parametro ao chamar a funcão
@@ -75,7 +79,7 @@ func checkPassword(_ password: String) throws -> Bool {
     if password == "password" {
         throw PasswordError.obvious
     }
-
+    #fileLiteral(resourceName: "100DaysOfSwift.playground")
     return true
 }
 
